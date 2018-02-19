@@ -6,7 +6,7 @@ sudo apt-get update
 sudo ACCEPT_EULA=Y apt-get install msodbcsql mssql-tools
 #init 6
 sudo apt-get upgrade -y
-sudo apt install unixodbc-dev
+sudo apt install unixodbc-dev -y
 sudo apt-get install libapache2-mod-php7.0 -y
 sudo pecl install sqlsrv -y
 sudo pecl install pdo_sqlsrv -y
